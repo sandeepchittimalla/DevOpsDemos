@@ -15,6 +15,8 @@ wget https://sonatype-download.global.ssl.fastly.net/nexus/3/nexus-3.0.2-02-unix
 tar -zxvf  nexus-3.0.2-02-unix.tar.gz
 mv /opt/nexus-3.0.2-02 /opt/nexus
 ```
+(wget http://www.sonatype.org/downloads/nexus-latest-bundle.tar.gz)
+
 
 As a good security practice, it is not advised to run nexus service as root. so create new user called nexus and grant sudo access to manage nexus services 
 ```sh 
